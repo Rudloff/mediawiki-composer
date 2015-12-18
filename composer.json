@@ -1,0 +1,14 @@
+{
+	"name": "rudloff/mediawiki-composer",
+	"description": "Base Composer setup for MediaWiki projects",
+	"license": "GPL-3.0",
+	"require": {
+		"mediawiki/core": "~1.26.0",
+		"mediawiki/vector-skin": "dev-REL1_26",
+		"composer/installers": "~1.0.22"
+	},
+	"repositories": [{
+		"type": "vcs",
+		"url": "https://github.com/wikimedia/mediawiki.git"
+	}]
+}
