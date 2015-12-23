@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f7fba0a6a3b327d7b56da24caadb139d",
+    "hash": "f242b50dbdfe1fa5d5faff48baf1f3cb",
     "content-hash": "46997611530e0f54b9c439906bcb9b26",
     "packages": [
         {
@@ -299,16 +299,16 @@
         },
         {
             "name": "mediawiki/core",
-            "version": "1.26.1",
+            "version": "1.26.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki.git",
-                "reference": "905d088b12375958099346a922d4f0ccc1db12ca"
+                "reference": "f465524fc4840fb5c8b97e9ee6ffaf2a30c2e644"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/905d088b12375958099346a922d4f0ccc1db12ca",
-                "reference": "905d088b12375958099346a922d4f0ccc1db12ca",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/f465524fc4840fb5c8b97e9ee6ffaf2a30c2e644",
+                "reference": "f465524fc4840fb5c8b97e9ee6ffaf2a30c2e644",
                 "shasum": ""
             },
             "require": {
@@ -402,9 +402,9 @@
                 "issues": "https://bugs.mediawiki.org/",
                 "irc": "irc://irc.freenode.net/mediawiki",
                 "wiki": "https://www.mediawiki.org/",
-                "source": "https://github.com/wikimedia/mediawiki/tree/1.26.1"
+                "source": "https://github.com/wikimedia/mediawiki/tree/1.26.2"
             },
-            "time": "2015-12-18 00:36:59"
+            "time": "2015-12-20 23:48:38"
         },
         {
             "name": "mediawiki/vector-skin",
