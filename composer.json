@@ -16,7 +16,8 @@
 		"post-install-cmd": [
 			"ln -sfn ../../ vendor/mediawiki/core/vendor",
 			"rm -r vendor/mediawiki/core/skins",
-			"ln -sfn ../../../skins/ vendor/mediawiki/core/skins"
+			"ln -sfn ../../../skins/ vendor/mediawiki/core/skins",
+			"ln -sfn ../../../composer.lock vendor/mediawiki/core/composer.lock"
 		]
 	}
 }
