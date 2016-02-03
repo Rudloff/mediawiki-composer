@@ -8,13 +8,12 @@
 		"mediawiki/vector-skin": "dev-REL1_26",
 		"composer/installers": "~1.0.22"
 	},
-	"repositories": [{
-		"type": "vcs",
-		"url": "https://github.com/wikimedia/mediawiki.git"
-	}],
 	"scripts": {
 		"post-install-cmd": [
-			"ln -sfn ../../ vendor/mediawiki/core/vendor"
+			"ln -sfn ../../ vendor/mediawiki/core/vendor",
+			"rm -r vendor/mediawiki/core/skins",
+			"ln -sfn ../../../skins/ vendor/mediawiki/core/skins",
+			"ln -sfn ../../../composer.lock vendor/mediawiki/core/composer.lock"
 		]
 	}
 }
