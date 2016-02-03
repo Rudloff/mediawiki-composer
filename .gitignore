@@ -2,3 +2,4 @@ extensions/
 skins/
 vendor/
 LocalSettings.php
+.htaccess
