@@ -13,6 +13,8 @@
 			"ln -sfn ../../ vendor/mediawiki/core/vendor",
 			"rm -r vendor/mediawiki/core/skins",
 			"ln -sfn ../../../skins/ vendor/mediawiki/core/skins",
+			"rm -r vendor/mediawiki/core/extensions",
+			"ln -sfn ../../../extensions/ vendor/mediawiki/core/extensions",
 			"ln -sfn ../../../composer.lock vendor/mediawiki/core/composer.lock"
 		]
 	}
