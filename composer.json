@@ -5,9 +5,13 @@
 	"type": "project",
 	"require": {
 		"mediawiki/core": "~1.26.0",
-		"mediawiki/vector-skin": "dev-REL1_26",
+		"mediawiki/Vector": "~1.26.0",
 		"composer/installers": "~1.0.22"
 	},
+	"repositories": [{
+		"type": "composer",
+		"url": "https://mwpackagist.netlib.re/"
+	}],
 	"scripts": {
 		"post-install-cmd": [
 			"ln -sfn ../../ vendor/mediawiki/core/vendor",
@@ -16,6 +20,7 @@
 			"rm -r vendor/mediawiki/core/extensions",
 			"ln -sfn ../../../extensions/ vendor/mediawiki/core/extensions",
 			"ln -sfn ../../../composer.lock vendor/mediawiki/core/composer.lock"
-		]
+		],
+		"updatedb": "php vendor/mediawiki/core/maintenance/update.php --conf LocalSettings.php"
 	}
 }

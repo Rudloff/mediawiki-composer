@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "24da9b91c03ede96e98d78e186d954d6",
-    "content-hash": "72fbacec842178f44ebe8d4957458967",
+    "hash": "65089eccac1b9b56c8f2494372d6e7c9",
+    "content-hash": "cf22fdb367bfaf8de093d863b7d73bf8",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.23",
+            "version": "v1.0.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e"
+                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/6213d900e92647831f7a406d5c530ea1f3d4360e",
-                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e",
+                "url": "https://api.github.com/repos/composer/installers/zipball/36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
+                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
                 "shasum": ""
             },
             "require": {
@@ -40,8 +40,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Composer\\Installers\\": "src/"
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -56,12 +56,14 @@
                 }
             ],
             "description": "A multi-framework Composer library installer",
-            "homepage": "http://composer.github.com/installers/",
+            "homepage": "https://composer.github.io/installers/",
             "keywords": [
                 "Craft",
                 "Dolibarr",
                 "Hurad",
+                "ImageCMS",
                 "MODX Evo",
+                "Mautic",
                 "OXID",
                 "SMF",
                 "Thelia",
@@ -103,7 +105,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-01-27 12:54:22"
+            "time": "2016-04-13 19:46:30"
         },
         {
             "name": "composer/semver",
@@ -249,6 +251,20 @@
                 "statsd"
             ],
             "time": "2015-04-27 08:12:26"
+        },
+        {
+            "name": "mediawiki/Vector",
+            "version": "1.26",
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/skins/Vector-REL1_26-186325f.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-skin"
         },
         {
             "name": "mediawiki/at-ease",
@@ -405,49 +421,6 @@
                 "source": "https://github.com/wikimedia/mediawiki/tree/1.26.1"
             },
             "time": "2015-12-18 00:36:59"
-        },
-        {
-            "name": "mediawiki/vector-skin",
-            "version": "dev-REL1_26",
-            "source": {
-                "type": "git",
-                "url": "https://git.wikimedia.org/git/mediawiki/skins/Vector.git",
-                "reference": "186325fe473fe0472706132aa55040a653859c09"
-            },
-            "require": {
-                "composer/installers": ">1.0.12",
-                "php": ">=5.3.3"
-            },
-            "require-dev": {
-                "jakub-onderka/php-parallel-lint": "0.9.*",
-                "mediawiki/mediawiki-codesniffer": "0.3.0"
-            },
-            "type": "mediawiki-skin",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Trevor Parscal"
-                },
-                {
-                    "name": "Roan Kattouw"
-                }
-            ],
-            "description": "Modern version of the MonoBook skin",
-            "homepage": "https://www.mediawiki.org/wiki/Skin:Vector",
-            "keywords": [
-                "mediawiki",
-                "skin",
-                "wiki"
-            ],
-            "time": "2015-11-23 21:46:56"
         },
         {
             "name": "oojs/oojs-ui",
@@ -940,9 +913,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "mediawiki/vector-skin": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
