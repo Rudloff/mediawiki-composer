@@ -11,9 +11,6 @@
 	"repositories": [{
 		"type": "composer",
 		"url": "https://mwpackagist.netlib.re/"
-	}, {
-		"type": "vcs",
-		"url": "https://github.com/wikimedia/mediawiki.git"
 	}],
 	"scripts": {
 		"post-install-cmd": [
