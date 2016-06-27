@@ -254,7 +254,12 @@
         },
         {
             "name": "mediawiki/Vector",
-            "version": "1.26",
+            "version": "1.26+186325f",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/skins/Vector",
+                "reference": "186325f"
+            },
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/skins/Vector-REL1_26-186325f.tar.gz",
@@ -264,7 +269,11 @@
             "require": {
                 "composer/installers": "~1.0"
             },
-            "type": "mediawiki-skin"
+            "type": "mediawiki-skin",
+            "homepage": "https://www.mediawiki.org/wiki/Skin:Vector",
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/skins/Vector"
+            }
         },
         {
             "name": "mediawiki/at-ease",
