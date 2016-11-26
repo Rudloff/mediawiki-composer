@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "44fed7c69abf733c59b9300236221f0d",
-    "content-hash": "7ad5345f25991c520e6a6ab7f8d13793",
+    "hash": "51ed2b0d7ccede85475f7d703179a1db",
+    "content-hash": "703fa22786ff97244d65840b33611b4b",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.25",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e"
+                "reference": "d78064c68299743e0161004f2de3a0204e33b804"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
-                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
+                "url": "https://api.github.com/repos/composer/installers/zipball/d78064c68299743e0161004f2de3a0204e33b804",
+                "reference": "d78064c68299743e0161004f2de3a0204e33b804",
                 "shasum": ""
             },
             "require": {
@@ -65,21 +65,26 @@
                 "MODX Evo",
                 "Mautic",
                 "OXID",
+                "Plentymarkets",
+                "RadPHP",
                 "SMF",
                 "Thelia",
                 "WolfCMS",
                 "agl",
                 "aimeos",
                 "annotatecms",
+                "attogram",
                 "bitrix",
                 "cakephp",
                 "chef",
+                "cockpit",
                 "codeigniter",
                 "concrete5",
                 "croogo",
                 "dokuwiki",
                 "drupal",
                 "elgg",
+                "expressionengine",
                 "fuelphp",
                 "grav",
                 "installer",
@@ -96,16 +101,18 @@
                 "piwik",
                 "ppi",
                 "puppet",
+                "reindex",
                 "roundcube",
                 "shopware",
                 "silverstripe",
                 "symfony",
                 "typo3",
                 "wordpress",
+                "yawik",
                 "zend",
                 "zikula"
             ],
-            "time": "2016-04-13 19:46:30"
+            "time": "2016-08-13 20:53:52"
         },
         {
             "name": "composer/semver",
@@ -259,7 +266,7 @@
             "version": "1.27+d11a80a",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/skins/Vector",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/skins/Vector.git",
                 "reference": "d11a80a"
             },
             "dist": {
@@ -326,16 +333,16 @@
         },
         {
             "name": "mediawiki/core",
-            "version": "1.27.0",
+            "version": "1.27.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki.git",
-                "reference": "758cd9d2371d529450448cdf7eb2f1f6e099cfee"
+                "reference": "a52d35d56c78918d8680cd27b6d6df5a1bbbc45b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/758cd9d2371d529450448cdf7eb2f1f6e099cfee",
-                "reference": "758cd9d2371d529450448cdf7eb2f1f6e099cfee",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/a52d35d56c78918d8680cd27b6d6df5a1bbbc45b",
+                "reference": "a52d35d56c78918d8680cd27b6d6df5a1bbbc45b",
                 "shasum": ""
             },
             "require": {
@@ -442,9 +449,9 @@
                 "issues": "https://bugs.mediawiki.org/",
                 "irc": "irc://irc.freenode.net/mediawiki",
                 "wiki": "https://www.mediawiki.org/",
-                "source": "https://github.com/wikimedia/mediawiki/tree/1.27.0"
+                "source": "https://github.com/wikimedia/mediawiki/tree/1.27.1"
             },
-            "time": "2016-06-28 20:24:08"
+            "time": "2016-08-23 04:46:35"
         },
         {
             "name": "oojs/oojs-ui",
@@ -630,12 +637,12 @@
             "version": "v0.2.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/wmde/Assert.git",
+                "url": "https://github.com/wikimedia/Assert.git",
                 "reference": "2da55927525975f8d52825fc3ee02e5e36f5036c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wmde/Assert/zipball/2da55927525975f8d52825fc3ee02e5e36f5036c",
+                "url": "https://api.github.com/repos/wikimedia/Assert/zipball/2da55927525975f8d52825fc3ee02e5e36f5036c",
                 "reference": "2da55927525975f8d52825fc3ee02e5e36f5036c",
                 "shasum": ""
             },

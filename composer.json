@@ -6,7 +6,7 @@
 	"require": {
 		"mediawiki/core": "~1.27.0",
 		"mediawiki/Vector": "~1.27.0",
-		"composer/installers": "~1.0.22"
+		"composer/installers": "~1.2.0"
 	},
 	"repositories": [{
 		"type": "composer",
