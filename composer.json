@@ -1,26 +1,31 @@
 {
-	"name": "rudloff/mediawiki-composer",
-	"description": "Base Composer setup for MediaWiki projects",
-	"license": "GPL-3.0",
-	"type": "project",
-	"require": {
-		"mediawiki/core": "~1.28.0",
-		"mediawiki/Vector": "~1.28.0",
-		"composer/installers": "~1.2.0"
-	},
-	"repositories": [{
-		"type": "composer",
-		"url": "https://mwpackagist.netlib.re/"
-	}],
-	"scripts": {
-		"post-install-cmd": [
-			"ln -sfn ../../ vendor/mediawiki/core/vendor",
-			"rm -r vendor/mediawiki/core/skins",
-			"ln -sfn ../../../skins/ vendor/mediawiki/core/skins",
-			"rm -r vendor/mediawiki/core/extensions",
-			"ln -sfn ../../../extensions/ vendor/mediawiki/core/extensions",
-			"ln -sfn ../../../composer.lock vendor/mediawiki/core/composer.lock"
-		],
-		"updatedb": "php vendor/mediawiki/core/maintenance/update.php --conf LocalSettings.php"
-	}
+  "name": "rudloff/mediawiki-composer",
+  "description": "Base Composer setup for MediaWiki projects",
+  "license": "GPL-3.0",
+  "type": "project",
+  "require": {
+    "mediawiki/core": "~1.28.0",
+    "mediawiki/Vector": "~1.28.0",
+    "composer/installers": "~1.2.0"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "~3.1.0"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://mwpackagist.netlib.re/"
+    }
+  ],
+  "scripts": {
+    "post-install-cmd": [
+      "ln -sfn ../../ vendor/mediawiki/core/vendor",
+      "rm -r vendor/mediawiki/core/skins",
+      "ln -sfn ../../../skins/ vendor/mediawiki/core/skins",
+      "rm -r vendor/mediawiki/core/extensions",
+      "ln -sfn ../../../extensions/ vendor/mediawiki/core/extensions",
+      "ln -sfn ../../../composer.lock vendor/mediawiki/core/composer.lock"
+    ],
+    "updatedb": "php vendor/mediawiki/core/maintenance/update.php --conf LocalSettings.php"
+  }
 }
